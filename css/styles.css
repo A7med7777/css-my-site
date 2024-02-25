@@ -138,3 +138,19 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+@media (max-width: 680px) {
+  .mountain {
+    width: 100%;
+  }
+
+  .bottom-cloud {
+    display: none;
+  }
+
+  .intro,
+  .skill-row,
+  .contact-message {
+    width: 75%;
+  }
+}
