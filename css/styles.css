@@ -139,7 +139,7 @@ a:hover {
   text-decoration: none;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 600px) {
   .mountain {
     width: 100%;
   }
