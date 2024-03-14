@@ -53,10 +53,6 @@ a:hover {
   padding-top: 100px;
 }
 
-.mountain {
-  width: 60% !important;
-}
-
 .middle-container {
   margin: 100px 0;
 }
@@ -144,6 +140,10 @@ a:hover {
 }
 
 @media (max-width: 600px) {
+  .mountain {
+    width: 100%;
+  }
+
   .bottom-cloud {
     display: none;
   }
